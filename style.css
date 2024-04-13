@@ -331,7 +331,7 @@ header button {
     align-content: center;
     justify-content: space-between;
     position: relative;
-    background-image:linear-gradient(rgba(0 , 0, 0, 0.6),rgba(0 , 0, 0, 0.6)), url('C:/Users/Coumba Sow/Documents/projet html css xarala/juss.jpg');
+    background-image:linear-gradient(rgba(0 , 0, 0, 0.6),rgba(0 , 0, 0, 0.6)), url('./imagesjuss.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -518,7 +518,7 @@ header button {
 #envoie {
     
     position: relative;
-    background-image:linear-gradient(rgba(0 , 0, 0, 0.6),rgba(0 , 0, 0, 0.6)), url('C:/Users/Coumba Sow/Documents/projet html css xarala/sankhal1.jpg');
+    background-image:linear-gradient(rgba(0 , 0, 0, 0.6),rgba(0 , 0, 0, 0.6)), url('./images/sankhal1.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -625,7 +625,7 @@ header button {
     align-content: center;
     justify-content: space-between;
     position: relative;
-    background-image:linear-gradient(rgba(0 , 0, 0, 0.6),rgba(0 , 0, 0, 0.6)), url('C:/Users/Coumba Sow/Documents/projet html css xarala/nigeria-rice-pic2.jpg');
+    background-image:linear-gradient(rgba(0 , 0, 0, 0.6),rgba(0 , 0, 0, 0.6)), url('./images/nigeria-rice-pic2.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
