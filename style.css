@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', serif;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    height: 50px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+header .logo{
+    color: darkgreen;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+header.logo span {
+    color: black;
+}
+
+
+header button {
+    background-color: darkgreen;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+
+}
+
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.menu li a {
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    transition: 0.2s;
+    
+}
+.menu li a:hover{
+    color: darkgreen;
+}
+
+.icone {
+    display: flex;
+    
+}
+
+.icone li {
+    
+    list-style: none;
+    margin: 0 15px;
+}
+
+.icone li a {
+    color: black;
+}
+
+
+#home {
+    margin-top: 180px;
+    height: calc(100vh - 50px);
+    padding: 0 8%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+
+#home .left li{
+    width: 50%;
+    list-style: none;
+}
+
+#home .left h1{
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+#home .left h2 span {
+    color: darkgreen;
+
+}
+#home .left p {
+    margin-bottom: 30px;
+}
+
+#home .left a{
+    background-color: darkgreen;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+#home .right li {
+    list-style: none;
+}
+
+#home .right {
+    width: 50%;
+    list-style: none;
+    position: absolute;
+    margin-left: 500px;
+}
+
+#home .right img{
+    width: 550px;
+    margin-left: 60px;
+    margin-top: -115px;
+    position: absolute;
+    height: 490px;
+
+}
+
+#transformation {
+    margin-top: -160px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30 8%;
+
+   
+}
+/*
+.images {
+    margin: 50px auto;
+    padding: 0 8%;
+
+}
+*/
+
+
+.images ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.images li.agro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 290px;
+    width: 17%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin-left: 95px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.images li {
+    list-style: none;
+    flex-direction: column;
+
+}
+.images li div {
+    width: 50%;
+    height: 60%;
+    margin-right: 95px;
+    margin-left: 45px;
+
+}
+
+.images li div img {
+    height: 80%;
+    width: 60%;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+
+.images li div.ali {
+    margin-top: 20px;
+    width: 720px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 35px;
+    height: 290px;
+    border-radius: 10px;
+
+}
+
+.images li div.ali h1{
+
+   text-align: center;
+   color: rgb(139, 108, 32);
+   font-size: 30px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.images li div.ali p{
+
+    text-align: center;
+    font-size: 15px;
+    margin: 10px 10px;
+ }
+
+ .images li.alimentaire li.prod {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 50px;
+    margin: 80px;
+    margin-top: 0;
+    align-content: center; 
+    margin-bottom: 50px;
+}
+ .images li.alimentaire li.prod div img {
+    position: absolute;
+    mix-blend-mode: screen;
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+ }
+
+ #produit {
+    padding: 0 8%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre {
+    color: green;
+    font-size: 30px;
+    text-decoration: underline;
+    position: relative;
+    margin-top: 10px;
+}
+
+#produit .cereal .etoile {
+    font-size: 24px;
+}
+
+#produit .cereal .fa-star{
+   color: gray;
+}
+
+#produit .cereal .checked {
+    color: darkgreen;
+  
+}
+
+.cereal {
+    margin:50px auto;
+    text-align: center;
+
+}
+.cereal li.sachet {
+    border-radius: 20px;
+}
+.cereal ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 25px;
+
+}
+
+.cereal li {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    height: 380px;
+    width: 20%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.cereal li div {
+    width: 100%;
+    height: 100%;
+
+}
+
+.cereal li div img {
+    width: 100%;
+    height: 100%;
+}
+
+#produit li span {
+    color:black;
+    font-size: 18px;
+}
+
+#produit li span.desc {
+     font-size: 10px;
+     color: dimgray;
+}
+
+#produit li a {
+    background-color: darkgreen;
+    color: white;
+    width: 100%;
+}
+
+#temoignage {
+    height: calc(100vh - 50px);
+    padding: 0 8%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+    background-image:linear-gradient(rgba(0 , 0, 0, 0.6),rgba(0 , 0, 0, 0.6)), url('C:/Users/Coumba Sow/Documents/projet html css xarala/juss.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+.temoin h1 {
+    
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.temoin p {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.temoin ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 160px;
+
+}
+
+.temoin li {
+    list-style: none;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    height: 380px;
+    width: 20%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+}
+
+.temoin li.cercle div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 50px;
+    margin: 80px;
+    margin-top: 0;
+    align-content: center; 
+    margin-bottom: 50px;
+    position: absolute;
+}
+
+.temoin li.cercle div.box1 img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: -70px;
+    margin-top: -35px;
+
+}
+
+.temoin li span{
+    text-align: center;
+    color: darkgreen;
+    font-size: 20px;
+    margin-top: 70%;
+    margin-bottom: 5px;
+}
+
+.temoin li p {
+    color: black;
+    justify-content: center;
+    font-size: 12px;
+
+}
+
+
+#cinq {
+    margin-top: 180px;
+    height: calc(100vh - 50px);
+    padding: 0 8%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#cinq .gauche1 li {
+    width: 50%;
+    list-style: none;
+}
+
+#cinq .gauche1 li img {
+    width: 300px;
+    margin-left: 60px;
+    margin-top: -115px;
+    position: absolute;
+    height: 300px;
+}
+
+
+
+#cinq .droite1 {
+    width: 50%;
+    list-style: none;
+    position: absolute;
+    margin-left: 500px;
+}
+#cinq .droite1 li {
+    list-style: none;
+}
+
+#cinq .droite1 li img{
+    width: 150px;
+    margin-left: 160px;
+    margin-top: -115px;
+    position: absolute;
+    height: 300px;
+
+}
+
+#cinq .droite1 li img.img1{
+    width: 300px;
+    margin-left: 50%;
+    margin-top: -115px;
+    position: absolute;
+    height: 300px;
+
+}
+
+
+
+
+#cinq .gauche2 li {
+    width: 50%;
+    list-style: none;
+    margin-top: 300px;
+}
+
+#cinq .gauche2 li p {
+   font-size: 15px;
+}
+
+
+
+#cinq .droite2 {
+    width: 50%;
+    list-style: none;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+#cinq .droite2 li {
+    width: 50%;
+    list-style: none;
+    margin-top: 330px;
+
+}
+
+#cinq .droite2 li img{
+    width: 300px;
+    margin-left: 140px;
+    margin-top: -115px;
+    position: absolute;
+    height: 300px;
+
+}
+
+
+#cinq .droite2 li img.img2 {
+    margin-left: 60%;
+}
+
+#cinq .gauche1 li img.img1 {
+    margin-left: 60%;
+
+} 
+
+#envoie {
+    
+    position: relative;
+    background-image:linear-gradient(rgba(0 , 0, 0, 0.6),rgba(0 , 0, 0, 0.6)), url('C:/Users/Coumba Sow/Documents/projet html css xarala/sankhal1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 70px 0; 
+    margin-top: 30px;
+}
+ 
+
+.email {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+
+    max-width: 600px;
+    margin: 0 auto; 
+}
+
+.email form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-form input[type = "email"] {
+    margin-bottom: 10px; 
+    padding: 10px;
+    width: 600px;
+    height: 20px;
+}
+
+.email-form button {
+    padding: 10px;
+    width: 140px;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+}
+
+#services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 50px;
+    color: darkgreen;
+}
+
+
+.list-services {
+    margin: 60px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.service {
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    width: 22%;
+    margin: 10px;
+   
+}
+
+.service i {
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkgreen;
+    margin-bottom: 30px;
+
+}
+
+.service h1.section-title {
+    color: darkolivegreen;
+    font-size: 20px;
+
+}
+
+.service p {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+}
+
+#contacts {
+    height: calc(100vh - 50px);
+    padding: 0 8%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+    background-image:linear-gradient(rgba(0 , 0, 0, 0.6),rgba(0 , 0, 0, 0.6)), url('C:/Users/Coumba Sow/Documents/projet html css xarala/nigeria-rice-pic2.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.contact h1 {
+
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+
+    max-width: 600px;
+    margin: 0 auto; 
+}
+
+.email form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-form input {
+    margin-bottom: 10px; 
+    padding: 10px;
+    width: 600px;
+    height: 20px;
+}
+
+.email-form textarea {
+    margin-bottom: 10px; 
+    padding: 10px;
+    width: 600px;
+    height: 200px;
+}
+
+#footer {
+    margin-top: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+
+#footer li {
+    align-items: center;
+    width: 100%;
+    margin: 100px;
+    list-style: none;
+   
+    margin-top: 20px;
+
+}
+
+.copyright {
+    background-color: white;
+    width: 100%;
+    color: black;
+    text-align: center;
+    border: solid;
+}
+
